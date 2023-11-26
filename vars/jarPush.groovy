@@ -1,4 +1,4 @@
 def call(){
-  sh "chmod +x -R ${env.WORKSPACE}"
+  sh "chmod +x ./jfrog.py"
   sh './jfrog.py'
 }
