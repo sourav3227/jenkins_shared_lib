@@ -2,12 +2,10 @@
 
 import requests
 import subprocess
-import os
 
 def jfrogUpload():
     url = "http://65.0.179.169:8082/artifactory/example-repo-local/kubernetes-configmap-reload-0.0.1-SNAPSHOT.jar"
     file_path = "/home/ubuntu/Java_app_3.0/target/kubernetes-configmap-reload-0.0.1-SNAPSHOT.jar"
-    absolute_path = os.path.abspath(file_path)
     username = 'admin'
     password = 'Sourav3227'
 
